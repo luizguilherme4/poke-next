@@ -3,7 +3,6 @@
     justify-content: space-between;
     align-items: center;
     padding: 1em 1.2em;
-    margin-bottom: 2em;
     background-color: #333;
     color: #fff;
 }
@@ -13,6 +12,8 @@
     justify-content: center;
     align-items: center;
     gap: 1em;
+    color: #fff;
+    text-decoration: none;
 }
 
 .link_items {
@@ -24,6 +25,7 @@
 
 .link_items a {
     color: #fff;
+    font-size: 1.2em;
     text-decoration: none;
     padding: 5px;
     transition: 0.4s;
@@ -32,5 +34,11 @@
 
 .link_items a:hover {
     cursor: pointer;
-    border-color: #fff;
+    border-color: #e33d33;
 }
+
+@media (max-width: 1023px) {
+    .navbar {
+        width: 400px;
+        }
+    }

@@ -8,3 +8,13 @@
 .main-container {
     min-height: 70vh;
 }
+
+@media (max-width: 1023px) {
+    .main-container {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

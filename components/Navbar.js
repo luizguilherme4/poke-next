@@ -8,7 +8,7 @@ import styles from '../styles/Navbar.module.css'
 export default function Navbar() {
     return (
         <nav className={styles.navbar}>
-            <div className={styles.logo}>
+            <Link href="/" className={styles.logo}>
                 <Image
                     src={pokeball}
                     width="40"
@@ -16,7 +16,7 @@ export default function Navbar() {
                     alt="pokenext logo"
                 />
                 <h1>PokeNext</h1>
-            </div>
+            </Link>
             <ul className={styles.link_items}>
                 <li>
                     <Link href='/'>Home</Link>

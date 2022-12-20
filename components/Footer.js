@@ -1,11 +1,13 @@
 import styles from '../styles/Footer.module.css'
+import Image from 'next/image'
+import heart from '../public/images/heart.svg'
 
 export default function Footer() {
     return (
         <footer className={styles.footer}>
-            <p>
-                <span>PokeNext</span> &copy; 2022
-            </p>
+            <p>Feito com </p>
+            <Image src={heart} />
+            <p>por Luiz</p>
         </footer>
     )
 }
