@@ -6,7 +6,7 @@ export default function Footer() {
     return (
         <footer className={styles.footer}>
             <p>Feito com </p>
-            <Image src={heart} />
+            <Image src={heart} alt="ícone de coração" />
             <p>por Luiz</p>
         </footer>
     )
